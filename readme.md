@@ -41,7 +41,7 @@ df = pd.DataFrame(data)
 le = LabelEncoder()
 df['Label'] = le.fit_transform(df['Label'])
 ```
-- Here, a mistake seems to have been made since the 'Label' column does not exist in the generated data, meaning there's an oversight in the simulation part where labels (targets) should also be generated. Assuming labels were generated, this part encodes string labels to integers.
+- This part encodes string labels to integers.
 
 ### Splitting the Dataset
 ```python

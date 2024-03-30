@@ -19,7 +19,6 @@ data = {
     'Fwd Packet Length Min': np.random.randint(0, 1500, n_samples),
     'Fwd Packet Length Mean': np.random.random(n_samples) * 1500,
     'Fwd Packet Length Std': np.random.random(n_samples) * 500,
-    # You can simulate more features here...
     'Label': np.random.choice(['BENIGN', 'DDoS'], n_samples)
 }
 
